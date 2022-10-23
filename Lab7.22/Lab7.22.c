@@ -8,7 +8,7 @@ int main()
     float x, y;
     char z;
     setlocale(LC_ALL, "rus");
-    printf("Введите действие:\n");
+    printf("Р’РІРµРґРёС‚Рµ РґРµР№СЃС‚РІРёРµ:\n");
     scanf("%f %c %f", &x, &z, &y);
     switch (z)
     {
@@ -24,7 +24,7 @@ int main()
     case '/':
         printf("%f / %f = %.2f", x, y, (x/y));
         break;
-    default: printf("Команда не распознана");
+    default: printf("РљРѕРјР°РЅРґР° РЅРµ СЂР°СЃРїРѕР·РЅР°РЅР°");
         break;
     }
 
